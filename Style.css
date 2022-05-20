@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --rgbBGcolor: linear-gradient(to right, rgb(255, 1, 1), rgb(230, 255, 6));
+}
+.content {
+  background: #130f40;
+  width: 100vw;
+  height: 100vh;
+  color: wheat;
+  display: grid;
+  place-items: center;
+}
+.rgb-Bg {
+  background: linear-gradient(to right, rgb(255, 1, 1), rgb(230, 255, 6));
+  height: 100px;
+  width: 300px;
+  display: grid;
+  place-items: center;
+  box-shadow: 2px 2px 50px -10px #fbff00;
+}
+.clock {
+  width: 95%;
+  height: 85%;
+  display: grid;
+  place-items: center;
+  background-color: #30336b;
+}
+P {
+  font-size: 30px;
+  font-family: "Reem Kufi", sans-serif;
+  letter-spacing: 8px;
+  color: #dff9fb;
+}
+#MyDate {
+  font-size: 20px;
+  font-family: "Reem Kufi", sans-serif;
+  letter-spacing: 7px;
+  margin-top: -15px;
+}
